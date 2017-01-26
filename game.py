@@ -44,6 +44,7 @@ def main(stdscr):
     start_menu.set_selection({"desc": "Staff of Cats", "out": "4"}, 4)
     start_menu.set_selection({"desc": "Demon's Charm", "out": "5"}, 5)
     start_menu.set_selection({"desc": "Gentleman's Rapier", "out": "6"}, 6)
+    start_menu.set_selection({"desc": "Devil's Fist", "out": "7"}, 7)
 
     # Show the menu and return the selected choice key to the choice variable.
     out, description = start_menu.interact()

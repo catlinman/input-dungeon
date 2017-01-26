@@ -1,10 +1,11 @@
-# InputDungeon #
 
-InputDungeon is a command line dungeon crawler game project. It requires the Python interpreter version 3.4+ and is not platform specific.
+# Input Dungeon #
 
-## Setup ##
+Input Dungeon is a command line dungeon crawler game project. It requires the Python interpreter version 3.4+ and is not platform specific.
 
-Before running InputDungeon you will have to make sure that the required dependencies have been met. As of now (3/28/2015) the only dependency is *curses* which should natively ship with Unix systems.
+### Setup ###
+
+Before running Input Dungeon you will have to make sure that the required dependencies have been met. As of now (1/26/2017) the only dependency is *curses* which should natively ship with Unix systems.
 
 This however is not the case on Windows systems and requires a little bit of extra work to get running. Thanks to some good people *curses* is now also available for Windows' CPython distribution. You can find the converted binaries on [this page](http://www.lfd.uci.edu/~gohlke/pythonlibs/#curses). To install *curses* all you will need to do is to download one of the wheel files from the given page - in this case either the *cp34win32* or *cp34amd64* version - and to install the wheel using *pip* with the following syntax:
 
@@ -18,4 +19,4 @@ Once you have fulfilled the requirements all you need to do is to execute *game.
 
 ## License ##
 
-This repository is released under the MIT license. For more information please refer to [LICENSE](https://github.com/Catlinman/InputDungeon/blob/master/LICENSE)
+This repository is released under the MIT license. For more information please refer to [LICENSE](https://github.com/catlinman/input-dungeon/blob/master/LICENSE)
